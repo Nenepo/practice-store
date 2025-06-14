@@ -1,11 +1,10 @@
-
-const ProductPage = async ({
-  params,
-}: {
-  params: Promise<{ slug: string }>;
-}) => {
+const IndPage = async ({ params }: { params: Promise<{ slug: string }> }) => {
   const { slug } = await params;
-  return <div>{slug}</div>;
+  return (
+    <>
+      <div className=" ">{slug}</div>;
+    </>
+  );
 };
 
-export default ProductPage;
+export default IndPage;
