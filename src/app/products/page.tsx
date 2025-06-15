@@ -1,6 +1,7 @@
+"use client"
 import ProductCard from '@/components/ProductCard'
 import { products } from '@/utils/products'
-import { useRouter } from 'next/router';
+import { useRouter } from 'next/navigation';
 import React from 'react'
 
 function ProductsPage() {
