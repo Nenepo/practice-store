@@ -1,4 +1,5 @@
 import Image from "next/image";
+import ProductsPage from "./products/page";
 
 export default function Home() {
   return (
@@ -7,7 +8,7 @@ export default function Home() {
       
       </nav>
       <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
-       
+       <ProductsPage/>
       </main>
       <footer className="row-start-3 ">
        
